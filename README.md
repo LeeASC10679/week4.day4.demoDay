@@ -21,6 +21,8 @@
    - You should have a properly hosted website (feel free to use GitHub!)
 6. Here’s a basic schedule for the Demo Day Projects:
    - **Day 1** - Brainstorm ideas for a final project. Pitch your best idea to the instructional staff. Once approved you can go on to work on the project. You SHOULD be approved by the end of the first day to give you the most time to work on your project.
+     - **You must provide a ~50 word description of your project by the end of today**
+     - **You must provide a .jpg or .png logo for your project by the end of today**
    - **Days 2-4** - Work on your project! If you “feel” done, then your group should be practicing, practicing, practicing! Anticipate things not going according to plan; have backups in place! 
      - If someone’s out sick, who can take over their part?
      - If the wifi doesn’t work, can you run you project locally?
