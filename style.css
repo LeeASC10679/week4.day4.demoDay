@@ -30,9 +30,9 @@
 
 .logo {
 
-    width: 180px; /* Adjust logo size as needed */
+    width: 180px; 
     height: 100px;
-    margin-left: 20px; /* Adjust spacing between logo and links */
+    margin-left: 20px; 
 }
 
 #navbar a:hover {
@@ -40,21 +40,20 @@
     border: 1px solid #f08173;
 }
 
-/* Basic styling for the dropdown */
 
 .dropbtn {
     background-color: transparent;
     color: black;
     border: none;
     cursor: pointer;
-    display: flex; /* Use flexbox to center text vertically and horizontally */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
     padding: 12px 16px;
     text-decoration: none;
 }
 
-/* Dropdown content (hidden by default) */
+
 .dropdown-content {
     top: 75px;
     display: none;
@@ -64,12 +63,11 @@
     z-index: 1;
     border: 1px solid #f08173;
     border-radius: 5px;
-    text-align: center; /* Center text horizontally */
+    text-align: center; 
     color:#f08173
    
 }
 
-/* Show the dropdown content when hovering over the dropdown button */
 .dropdown:hover .dropdown-content {
     display: block;
 }
