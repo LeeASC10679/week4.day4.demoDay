@@ -1,0 +1,75 @@
+#navbar {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top:1px;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    
+}
+
+#navbar a {
+    color: #9271da;
+    text-decoration: none;
+    width: 240px; /* Set a fixed width for each link */
+    height: 40px; /* Set a fixed height for each link */
+    padding: 0; /* Remove padding */
+    margin: 0;
+    border: 1px solid #9271da;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+
+    width: 180px; /* Adjust logo size as needed */
+    height: 100px;
+    margin-left: 20px; /* Adjust spacing between logo and links */
+}
+
+#navbar a:hover {
+    color: #f08173;
+    border: 1px solid #f08173;
+}
+
+/* Basic styling for the dropdown */
+
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    border: none;
+    cursor: pointer;
+    display: flex; /* Use flexbox to center text vertically and horizontally */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    top: 75px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 240px;
+    z-index: 1;
+    border: 1px solid #f08173;
+    border-radius: 5px;
+    text-align: center; /* Center text horizontally */
+    color:#f08173
+   
+}
+
+/* Show the dropdown content when hovering over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
