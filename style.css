@@ -1,3 +1,5 @@
+/*Nav Bar css DONT TOUCH */
+
 #navbar {
     padding: 10px 0;
     display: flex;
@@ -14,9 +16,9 @@
 #navbar a {
     color: #9271da;
     text-decoration: none;
-    width: 240px; /* Set a fixed width for each link */
-    height: 40px; /* Set a fixed height for each link */
-    padding: 0; /* Remove padding */
+    width: 240px; 
+    height: 40px; 
+    padding: 0; 
     margin: 0;
     border: 1px solid #9271da;
     border-radius: 5px;
@@ -71,3 +73,5 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/*WORK OTHER CSS UNDER HERE OR CREATE A DIF CSS FILE FOR EACH PAGE, IF CHOSEN TO WORK UNDER HERE THEN MAKE SURE TO COMMENT PAGE NAME AND SECTION IT OFF LIKE WHAT I DID WITH THE NAV BAR */
