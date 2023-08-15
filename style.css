@@ -10,7 +10,9 @@
     left: 0;
     height: 70px;
     width: 100%;
-    
+    padding-top: 30px;
+    background-color: #ffffff;
+    padding-bottom: 50px;
 }
 
 #navbar a {
@@ -32,11 +34,9 @@
 }
 
 .logo {
- margin-top: 70px;
- margin-left: 41%;
-    width: 230px; 
+    width: 220px; 
     height: 140px;
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #navbar a:hover {
@@ -59,7 +59,7 @@
 
 
 .dropdown-content {
-    top: 75px;
+    top: 95px;
     display: none;
     position: absolute;
     background-color: white;
@@ -84,6 +84,7 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding-top: 180px;
     padding-bottom: 20px;
     color: #f08173;
     text-decoration: underline;
@@ -94,12 +95,14 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding-top: 20px;
     padding-bottom: 20px;
     color: #9271da;
 }
 
 #Genre {
     padding: 10px 0;
+    padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -182,4 +185,173 @@
 
 .dropdown-contentG:hover {
     border: 1px solid #f08173;
+}
+
+/*Home page/About us*/
+ #home h1{
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 20px;
+    color: #f08173;
+    text-decoration: underline;
+    font-size: 35px
+    
+}
+
+
+.text-box { 
+    background-color: #ffffff;
+    padding: 20px; 
+    border: 2px solid #f08173; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.content h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-orientation: upright;
+    line-height: 1.5;
+    max-width: 650px; 
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    color: #f08173;
+}
+
+.content p {
+    text-orientation: upright;
+    line-height: 1.5;
+    margin: 5px;
+    max-width: 650px; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    color: #f08173;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.Image-container  { 
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px; 
+    border: 2px solid #f08173; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px; 
+    border-radius: 25px;
+    flex: 1;
+    margin-left: 8%;
+}
+
+.Photo {
+    width: 50%;
+       width: 500px; 
+       height: 240px;
+       padding-bottom: 10px;
+       padding-top: 10px;
+   }
+
+.Video-container {
+    flex: 1;
+    padding: 60px;
+}
+
+.Video {
+    width: 50%;
+    width: 500px; 
+    height: 280px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+   #about_us h1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 20px;
+    color: #9271da;
+    text-decoration: underline;
+    font-size: 35px
+}
+   
+   .text-boxA1 { 
+    background-color: #ffffff;
+    padding: 20px; 
+    border: 2px solid #9271da; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 402px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.contentA1 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-orientation: upright;
+    line-height: 1.5;
+    max-width: 650px; 
+    margin: 0 auto; 
+    color: #9271da;
+}
+
+.contentA1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-orientation: upright;
+    line-height: 1.5;
+    margin: 5px;
+    max-width: 650px; 
+    margin: 0 auto; 
+    color: #9271da;
+}
+
+   .text-boxA2 { 
+    background-color: #ffffff;
+    padding: 20px; 
+    border: 2px solid #9271da; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.contentA2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-orientation: upright;
+    line-height: 1.5;
+    max-width: 650px; 
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    color: #9271da;
+}
+
+.contentA2 p {
+    text-orientation: upright;
+    line-height: 1.5;
+    margin: 5px;
+    max-width: 650px; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+    color: #9271da;
 }
