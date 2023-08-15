@@ -77,3 +77,109 @@
 }
 
 /*WORK OTHER CSS UNDER HERE OR CREATE A DIF CSS FILE FOR EACH PAGE, IF CHOSEN TO WORK UNDER HERE THEN MAKE SURE TO COMMENT PAGE NAME AND SECTION IT OFF LIKE WHAT I DID WITH THE NAV BAR */
+
+/*opportunities*/
+#Opportunitiesh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 20px;
+    color: #f08173;
+    text-decoration: underline;
+}
+
+#Catagoryh2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 20px;
+    color: #9271da;
+}
+
+#Genre {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 10%;
+    width: 80%;
+    
+}
+
+
+.dropbtnG {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 12px 16px;
+    text-decoration: none;
+    border: 1px solid #9271da;
+    background-color: #ffffff;
+    color: #9271da;
+    text-decoration: none;
+    width: 200px; 
+    height: 40px; 
+    padding: 0; 
+    margin: 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-contentG a {
+    background-color: #ffffff;
+    color: #9271da;
+    text-decoration: none;
+    width: 200px; 
+    height: 40px; 
+    padding: 0; 
+    margin: 0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-contentG {
+    top: 75px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    z-index: 1;
+    border: 1px solid #9271da;
+    border-radius: 5px;
+    text-align: center; 
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtnG:hover {
+    color: #f08173;
+    border: 1px solid #f08173;
+}
+
+.dropdown-contentG a:hover {
+    color: #f08173;
+    text-decoration: underline;
+}
+
+.dropdown-contentG:hover {
+    border: 1px solid #f08173;
+}
